@@ -1,295 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ByIsabellaK</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <!-- Messenger Pluginprogram för chatt Code -->
-    <div id="fb-root"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ByIsabellaK</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <!-- Your Pluginprogram för chatt code -->
-    <div id="fb-customer-chat" class="fb-customerchat"></div>
+<body>
+  <!-- Messenger Pluginprogram för chatt Code -->
+  <div id="fb-root"></div>
 
-    <script>
-      var chatbox = document.getElementById("fb-customer-chat");
-      chatbox.setAttribute("page_id", "108899498593846");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
+  <!-- Your Pluginprogram för chatt code -->
+  <div id="fb-customer-chat" class="fb-customerchat"></div>
 
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function () {
-        FB.init({
-          xfbml: true,
-          version: "v18.0",
-        });
-      };
+  <script>
+    var chatbox = document.getElementById("fb-customer-chat");
+    chatbox.setAttribute("page_id", "108899498593846");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
 
-      (function (d, s, id) {
-        var js,
-          fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "https://connect.facebook.net/sv_SE/sdk/xfbml.customerchat.js";
-        fjs.parentNode.insertBefore(js, fjs);
-      })(document, "script", "facebook-jssdk");
-    </script>
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: "v18.0",
+      });
+    };
 
-    <!-- Preloader
+    (function (d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://connect.facebook.net/sv_SE/sdk/xfbml.customerchat.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    })(document, "script", "facebook-jssdk");
+  </script>
+
+  <!-- Preloader
     <div class="preloader">
       <img class="logo" src="./huvudsida/navlogga-huvudsida.png" alt="logo" />
     </div>
   -->
 
-    <div class="bigcontainer-huvudsida">
-      <div class="container-1huvudsida">
-        <section class="section-1huvudsida">
-          <a href="index.html">
-            <img
-              src="huvudsida/navlogga-huvudsida.png"
-              class="navlogga-huvudsida"
-            />
-          </a>
-          <nav class="hero-1huvudsida">
-            <ol class="hero-1huvudsida">
-              <li class="hero-1huvudsida-element">
-                <a href="plasmapen.html" class="hero-1huvudsida-element"
-                  >Microbladning
-                </a>
-              </li>
-              <li class="hero-1huvudsida-element">
-                <a href="microneedling.html" class="hero-1huvudsida-element"
-                  >Kombo brows</a
-                >
-              </li>
-              <li class="hero-1huvudsida-element">
-                <a href="isr.html" class="hero-1huvudsida-element"
-                  >Nano brows</a
-                >
-              </li>
-              <li class="hero-1huvudsida-element">
-                <a href="kemiskpeeling.html" class="hero-1huvudsida-element"
-                  >Powder brows</a
-                >
-              </li>
-              <li class="hero-1huvudsida-element">
-                <a href="ansiktsbehandling.html" class="hero-1huvudsida-element"
-                  >Lip Blush</a
-                >
-              </li>
-              <li class="hero-1huvudsida-element">
-                <a href="lashlift.html" class="hero-1huvudsida-element"
-                  >Eyeliner</a
-                >
-              </li>
-              <li class="hero-1huvudsida-element">
-                <a
-                  href="https://bokadirekt.se/places/by-isabella-k-48263"
-                  target="_blank"
-                  class="hero-1huvudsida-element button bokatidknapp"
-                  >Boka tid</a
-                >
-              </li>
-            </ol>
-            <div class="hamburger-container">
-              <span>MENY</span>
-              <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-              </div>
+  <div class="bigcontainer-huvudsida">
+    <div class="container-1huvudsida">
+      <section class="section-1huvudsida">
+        <a href="index.html">
+          <img src="huvudsida/navlogga-huvudsida.png" class="navlogga-huvudsida" />
+        </a>
+        <nav class="hero-1huvudsida">
+          <ol class="hero-1huvudsida">
+            <li class="hero-1huvudsida-element">
+              <a href="plasmapen.html" class="hero-1huvudsida-element">Microbladning
+              </a>
+            </li>
+            <li class="hero-1huvudsida-element">
+              <a href="microneedling.html" class="hero-1huvudsida-element">Kombo brows</a>
+            </li>
+            <li class="hero-1huvudsida-element">
+              <a href="isr.html" class="hero-1huvudsida-element">Nano brows</a>
+            </li>
+            <li class="hero-1huvudsida-element">
+              <a href="kemiskpeeling.html" class="hero-1huvudsida-element">Powder brows</a>
+            </li>
+            <li class="hero-1huvudsida-element">
+              <a href="ansiktsbehandling.html" class="hero-1huvudsida-element">Lip Blush</a>
+            </li>
+            <li class="hero-1huvudsida-element">
+              <a href="lashlift.html" class="hero-1huvudsida-element">Eyeliner</a>
+            </li>
+            <li class="hero-1huvudsida-element">
+              <a href="https://bokadirekt.se/places/by-isabella-k-48263" target="_blank"
+                class="hero-1huvudsida-element button bokatidknapp">Boka tid</a>
+            </li>
+          </ol>
+          <div class="hamburger-container">
+            <span>MENY</span>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
             </div>
-          </nav>
-        </section>
-      </div>
-
-      <div class="container-2huvudsida">
-        <img
-          alt="Ansiktsbehandling"
-          src="huvudsida/cover-picture-tattooheaderfront.png"
-          class="cover-picture-huvudsida"
-        />
-      </div>
-      <div class="container-3huvudsida">
-        <section class="section-2huvudsida">
-          <h3 class="text-1huvudsida">Välkommen till ByIsabellaK</h3>
-          <h4 class="text-2huvudsida">Vi brinner för naturlig skönhet!</h4>
-
-          <p class="text-3huvudsida">
-            Vi är din destination för skönhet och självförtroende! Vi förstår
-            att skönhet kommer inifrån, men ibland kan en extra touch göra
-            underverk för självkänslan. Det är här vår expertis inom kosmetisk
-            tatuering kommer in i bilden. Våra erfarna och professionella
-            kosmetiska tatueringskonstnärer är här för att framhäva din
-            naturliga skönhet på ett sätt som känns helt och hållet dig själv.
-            Tänk dig att vakna upp varje morgon med perfekt formade ögonbryn,
-            väldefinierade läppar och en subtil eyeliner som ger dina ögon det
-            där extra lyftet. Det är inte bara en investering i ditt utseende,
-            det är en investering i dig själv och din tid
-          </p>
-
-          <p class="text-4huvudsida">
-            Vår kosmetiska tatueringsteknik är av högsta kvalitet och utförs med
-            precision för att säkerställa naturliga och varaktiga resultat. Vi
-            förstår att varje ansikte är unikt, och våra konstnärer skräddarsyr
-            varje behandling för att passa just din ansiktsform och personliga
-            stil.
-          </p>
-
-          <p class="text-5">
-            Sluta slösa tid på att applicera och korrigera smink varje dag – låt
-            oss skapa en underbar, underhållsfri look som passar din livsstil.
-            Och det bästa av allt? Du kommer alltid att se fantastisk ut,
-            oavsett om du är på jobbet, gymmet eller bara njuter av en ledig dag
-          </p>
-          <img
-            src="ansiktsbehandling/bild framsida salong.png"
-            class="lip-blush"
-          />
-        </section>
-      </div>
-
-      <div class="container-4huvudsida">
-        <section class="section-3huvudsida">
-          <div class="cont-flyers-huvudsida">
-            <img
-              src="plasmapen/microbladningframsida.jpg"
-              class="cont-flyers-huvudsida-img"
-            />
-            <h3>Microbladning</h3>
-            <p>
-              Utforska perfekta ögonbryn med vår precisionsteknik –
-              microbladning hos ByIsabellaK. Med små, exakta snitt skapar vi
-              fina hårliknande streck, vilket ger en naturlig look som varar.
-              Denna behandling passar dig som inte gjort en PMU tidigare samt
-              har normal till torr hy.
-            </p>
-            <a href="plasmapen.html" class="lasmer">Läs Mer </a>
           </div>
-          <div class="cont-flyers-huvudsida">
-            <img
-              src="microneedling/KombobrowsNYframsida.jpg"
-              class="cont-flyers-huvudsida-img"
-            />
-            <h3>Kombo Brows</h3>
-            <p>
-              Med små, exakta snitt skapar vi fina hårliknande streck och fyller
-              ut med skuggning, vilket ger en naturlig och definierad look.
-              Passar torr, normal samt blandhy.
-            </p>
-            <a href="microneedling.html" class="lasmer">Läs Mer </a>
-          </div>
-          <div class="cont-flyers-huvudsida">
-            <img src="isr/nanobrows.PNG" class="cont-flyers-huvudsida-img" />
-            <h3>Nano brows</h3>
-            <p>
-              Nano brows är tekniken för dig som vill ha det senaste inom
-              kosmetisk tatuering. Stråna görs med en tatueringsmaskin, och
-              resultatet blir mjuka naturliga strån, tekniken kan också kallas
-              för fluffy brows. Denna teknik är lämplig för alla hudtyper.
-            </p>
-            <a href="ansiktsbehandling.html" class="lasmer">Läs Mer </a>
-          </div>
-          <div class="cont-flyers-huvudsida">
-            <img
-              src="kemiskpeeling/powderbrowsframsida.jpg"
-              class="cont-flyers-huvudsida-img"
-            />
-            <h3>Powder brows</h3>
-            <p>
-              Genom att applicera pigment i små punkter med en tatueringsmaskin
-              skapar vi en sammetslen och fyllig effekt, vilket ger ögonbrynen
-              en mjuk och definierad finish. Resultatet blir en mer sminkad
-              look. perfekt för dig som har väldigt få naturliga strån. Passar
-              alla hudtyper.
-            </p>
-            <a href="isr.html" class="lasmer">Läs Mer </a>
-          </div>
-
-          <div class="cont-flyers-huvudsida">
-            <img
-              src="ansiktsbehandling/lipblushNYframsida.jpg"
-              class="cont-flyers-huvudsida-img"
-            />
-            <h3>Lip Blush</h3>
-            <p>
-              Genom subtil pigmentering skapar vi en mjuk rodnad och definierar
-              läppkonturen, vilket ger ett fräscht och ungdomligt utseende. Våra
-              skickliga konstnärer använder Lip Blush för att skapa läppar med
-              en naturlig, långvarig färg
-            </p>
-            <a href="#" class="lasmer">Läs Mer </a>
-          </div>
-
-          <div class="cont-flyers-huvudsida">
-            <img
-              src="lashlift/eyelinerframsida.jpg"
-              class="cont-flyers-huvudsida-img"
-            />
-            <h3>Eyeliner</h3>
-            <p>Denna behandling kommer att introduceras våren 2024.</p>
-            <a href="#" class="lasmer">Läs Mer </a>
-          </div>
-        </section>
-      </div>
-      <div class="container-5huvudsida">
-        <div class="section-4huvudsida">
-          <img
-            src="huvudsida/navlogga-huvudsida.png"
-            class="footerlogga-huvudsida"
-          />
-          <div class="footermore-info">
-            <footer class="footer-container-huvudsida">
-              <h3 class="footer-bokahar-huvudsida">Boka här!</h3>
-              <a
-                href="https://bokadirekt.se/places/by-isabella-k-48263"
-                class="footer-bokadirekt-huvudsida"
-                target="_blank"
-                ><img
-                  src="https://foretag.bokadirekt.se/bokatid/BokaTid_Gron_MorkBakgrund_120px.png"
-                  alt="Boka tid"
-                  border="0"
-              /></a>
-              <p class="footer-foljoss-huvudsida">Följ oss på Sociala Medier</p>
-              <a
-                href="https://www.instagram.com/byisabellak"
-                class="footer-instagram-huvudsida"
-                ><img src="huvudsida/instagramlogga.png"
-              /></a>
-              <a
-                href="https://www.facebook.com/profile.php?id=100084614050164"
-                class="footer-facebook-huvudsida"
-                ><img src="huvudsida/facebooklogo.png"
-              /></a>
-              <h3 class="footer-text-1-huvudsida">ByIsabellaK</h3>
-              <p class="footer-address-huvudsida">
-                Solna Centrum (Solnavägen 13, 171 45 Solna)
-              </p>
-              <p class="footer-address-huvudsida">Solna Torg 3, plan 2</p>
-              <p class="footer-address-huvudsida">VIVACI Klinik</p>
-              <p class="footer-telefon-huvudsida">TEL: 073 041 25 89</p>
-            </footer>
-          </div>
-          <iframe
-            class="googlemaps"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2033.442101238914!2d17.999143576814276!3d59.3589601086489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9db946726085%3A0x250f6bd5cd0ee9b!2sVIVACI%20KLINIK!5e0!3m2!1ssv!2sse!4v1701292553662!5m2!1ssv!2sse"
-            width="240"
-            height="180"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          >
-          </iframe>
-        </div>
-      </div>
+        </nav>
+      </section>
     </div>
 
-    <script src="./app.js"></script>
-  </body>
+    <div class="container-2huvudsida">
+      <img alt="Ansiktsbehandling" src="huvudsida/cover-picture-tattooheaderfront.png"
+        class="cover-picture-huvudsida" />
+    </div>
+    <div class="container-3huvudsida">
+      <section class="section-2huvudsida">
+        <h3 class="text-1huvudsida">Välkommen till ByIsabellaK</h3>
+        <h4 class="text-2huvudsida">Vi brinner för naturlig skönhet!</h4>
+
+        <p class="text-3huvudsida">
+          Vi är din destination för skönhet och självförtroende! Vi förstår
+          att skönhet kommer inifrån, men ibland kan en extra touch göra
+          underverk för självkänslan. Det är här vår expertis inom kosmetisk
+          tatuering kommer in i bilden. Våra erfarna och professionella
+          kosmetiska tatueringskonstnärer är här för att framhäva din
+          naturliga skönhet på ett sätt som känns helt och hållet dig själv.
+          Tänk dig att vakna upp varje morgon med perfekt formade ögonbryn,
+          väldefinierade läppar och en subtil eyeliner som ger dina ögon det
+          där extra lyftet. Det är inte bara en investering i ditt utseende,
+          det är en investering i dig själv och din tid
+        </p>
+
+        <p class="text-4huvudsida">
+          Vår kosmetiska tatueringsteknik är av högsta kvalitet och utförs med
+          precision för att säkerställa naturliga och varaktiga resultat. Vi
+          förstår att varje ansikte är unikt, och våra konstnärer skräddarsyr
+          varje behandling för att passa just din ansiktsform och personliga
+          stil.
+        </p>
+
+        <p class="text-4huvudsida">
+          Sluta slösa tid på att applicera och korrigera smink varje dag – låt
+          oss skapa en underbar, underhållsfri look som passar din livsstil.
+          Och det bästa av allt? Du kommer alltid att se fantastisk ut,
+          oavsett om du är på jobbet, gymmet eller bara njuter av en ledig dag
+        </p>
+        <p class="text-4huvudsida">
+          Vill du uppnå strålande hud varje dag? Upptäck våra skräddarsydda hudvårdsbehandlingar och
+          ansiktsbehandlingar. Förvandla din hudvårdsrutin med oss. Läs mer på <a
+            href="https://www.ByIsabellaK.se">ByIsabellaK.se</a></p>
+      </section>
+    </div>
+
+    <div class=" container-4huvudsida">
+      <section class="section-3huvudsida">
+        <div class="cont-flyers-huvudsida">
+          <img src="plasmapen/microbladningframsida.jpg" class="cont-flyers-huvudsida-img" />
+          <h3>Microbladning</h3>
+          <p>
+            Utforska perfekta ögonbryn med vår precisionsteknik –
+            microbladning hos ByIsabellaK. Med små, exakta snitt skapar vi
+            fina hårliknande streck, vilket ger en naturlig look som varar.
+            Denna behandling passar dig som inte gjort en PMU tidigare samt
+            har normal till torr hy.
+          </p>
+          <a href="plasmapen.html" class="lasmer">Läs Mer </a>
+        </div>
+        <div class="cont-flyers-huvudsida">
+          <img src="microneedling/KombobrowsNYframsida.jpg" class="cont-flyers-huvudsida-img" />
+          <h3>Kombo Brows</h3>
+          <p>
+            Med små, exakta snitt skapar vi fina hårliknande streck och fyller
+            ut med skuggning, vilket ger en naturlig och definierad look.
+            Passar torr, normal samt blandhy.
+          </p>
+          <a href="microneedling.html" class="lasmer">Läs Mer </a>
+        </div>
+        <div class="cont-flyers-huvudsida">
+          <img src="isr/nanobrows.PNG" class="cont-flyers-huvudsida-img" />
+          <h3>Nano brows</h3>
+          <p>
+            Nano brows är tekniken för dig som vill ha det senaste inom
+            kosmetisk tatuering. Stråna görs med en tatueringsmaskin, och
+            resultatet blir mjuka naturliga strån, tekniken kan också kallas
+            för fluffy brows. Denna teknik är lämplig för alla hudtyper.
+          </p>
+          <a href="ansiktsbehandling.html" class="lasmer">Läs Mer </a>
+        </div>
+        <div class="cont-flyers-huvudsida">
+          <img src="kemiskpeeling/powderbrowsframsida.jpg" class="cont-flyers-huvudsida-img" />
+          <h3>Powder brows</h3>
+          <p>
+            Genom att applicera pigment i små punkter med en tatueringsmaskin
+            skapar vi en sammetslen och fyllig effekt, vilket ger ögonbrynen
+            en mjuk och definierad finish. Resultatet blir en mer sminkad
+            look. perfekt för dig som har väldigt få naturliga strån. Passar
+            alla hudtyper.
+          </p>
+          <a href="isr.html" class="lasmer">Läs Mer </a>
+        </div>
+
+        <div class="cont-flyers-huvudsida">
+          <img src="ansiktsbehandling/lipblushNYframsida.jpg" class="cont-flyers-huvudsida-img" />
+          <h3>Lip Blush</h3>
+          <p>
+            Genom subtil pigmentering skapar vi en mjuk rodnad och definierar
+            läppkonturen, vilket ger ett fräscht och ungdomligt utseende. Våra
+            skickliga konstnärer använder Lip Blush för att skapa läppar med
+            en naturlig, långvarig färg
+          </p>
+          <a href="#" class="lasmer">Läs Mer </a>
+        </div>
+
+        <div class="cont-flyers-huvudsida">
+          <img src="lashlift/eyelinerframsida.jpg" class="cont-flyers-huvudsida-img" />
+          <h3>Eyeliner</h3>
+          <p>Denna behandling kommer att introduceras våren 2024.</p>
+          <a href="#" class="lasmer">Läs Mer </a>
+        </div>
+      </section>
+    </div>
+    <div class="container-5huvudsida">
+      <div class="section-4huvudsida">
+        <img src="huvudsida/navlogga-huvudsida.png" class="footerlogga-huvudsida" />
+        <div class="footermore-info">
+          <footer class="footer-container-huvudsida">
+            <h3 class="footer-bokahar-huvudsida">Boka här!</h3>
+            <a href="https://bokadirekt.se/places/by-isabella-k-48263" class="footer-bokadirekt-huvudsida"
+              target="_blank"><img src="https://foretag.bokadirekt.se/bokatid/BokaTid_Gron_MorkBakgrund_120px.png"
+                alt="Boka tid" border="0" /></a>
+            <p class="footer-foljoss-huvudsida">Följ oss på Sociala Medier</p>
+            <a href="https://www.instagram.com/byisabellak" class="footer-instagram-huvudsida"><img
+                src="huvudsida/instagramlogga.png" /></a>
+            <a href="https://www.facebook.com/profile.php?id=100084614050164" class="footer-facebook-huvudsida"><img
+                src="huvudsida/facebooklogo.png" /></a>
+            <h3 class="footer-text-1-huvudsida">ByIsabellaK</h3>
+            <p class="footer-address-huvudsida">
+              Solna Centrum (Solnavägen 13, 171 45 Solna)
+            </p>
+            <p class="footer-address-huvudsida">Solna Torg 3, plan 2</p>
+            <p class="footer-address-huvudsida">VIVACI Klinik</p>
+            <p class="footer-telefon-huvudsida">TEL: 073 041 25 89</p>
+            <p class="footer-telefon-huvudsida">MAIL: Info@byisabellak.se</p>
+          </footer>
+        </div>
+        <iframe class="googlemaps"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2033.442101238914!2d17.999143576814276!3d59.3589601086489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9db946726085%3A0x250f6bd5cd0ee9b!2sVIVACI%20KLINIK!5e0!3m2!1ssv!2sse!4v1701292553662!5m2!1ssv!2sse"
+          width="240" height="180" style="border: 0" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+
 </html>
