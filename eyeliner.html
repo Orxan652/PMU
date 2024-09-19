@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lashlift</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Messenger Pluginprogram för chatt Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Pluginprogram för chatt code -->
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
+
+    <script>
+      var chatbox = document.getElementById("fb-customer-chat");
+      chatbox.setAttribute("page_id", "108899498593846");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v18.0",
+        });
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/sv_SE/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+
+    <div class="big-container-lashlift">
+      <div class="container-1huvudsida">
+        <section class="section-1huvudsida">
+          <a href="index.html">
+            <img
+              src="huvudsida/navlogga-huvudsida.png"
+              class="navlogga-huvudsida"
+            />
+          </a>
+          <nav class="hero-1huvudsida">
+            <ol class="hero-1huvudsida">
+              <li class="hero-1huvudsida-element">
+                <a href="microbladning.html" class="hero-1huvudsida-element"
+                  >Microbladning
+                </a>
+              </li>
+              <li class="hero-1huvudsida-element">
+                <a href="kombo_brows.html" class="hero-1huvudsida-element"
+                  >Kombo brows</a
+                >
+              </li>
+              <li class="hero-1huvudsida-element">
+                <a href="nano_brows.html" class="hero-1huvudsida-element"
+                  >Nano brows</a
+                >
+              </li>
+              <li class="hero-1huvudsida-element">
+                <a href="powder_brows.html" class="hero-1huvudsida-element"
+                  >Powder brows</a
+                >
+              </li>
+              <li class="hero-1huvudsida-element">
+                <a href="lip_blush.html" class="hero-1huvudsida-element"
+                  >Lip Blush</a
+                >
+              </li>
+              <li class="hero-1huvudsida-element">
+                <a href="eyeliner.html" class="hero-1huvudsida-element"
+                  >Eyeliner</a
+                >
+              </li>
+              <li class="hero-1huvudsida-element">
+                <a
+                  href="https://bokadirekt.se/places/by-isabella-k-48263"
+                  target="_blank"
+                  class="hero-1huvudsida-element button bokatidknapp"
+                  >Boka tid</a
+                >
+              </li>
+            </ol>
+            <div class="hamburger-container">
+              <span>MENY</span>
+              <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </div>
+          </nav>
+        </section>
+      </div>
+      <div class="container-2lashlift">
+        <img
+          alt="Ansiktsbehandling"
+          src="lashlift/eyelinerheader.png"
+          class="cover-picture-lashlift"
+        />
+      </div>
+      <div class="container-3lashlift">
+        <section class="section-3lashlift">
+          <h1>EYELINER</h1>
+          <p>Kommer inom kort.</p>
+          <p>.</p>
+          <p>.</p>
+          <p>.</p>
+          <p></p>
+        </section>
+      </div>
+      <div class="container-4lashlift">
+        <section class="section-4lashlift">
+          <div class="image-lashlift">
+            <div class="ansiktsbehandling-text-ansikte">
+              <h3>EYELINER –</h3>
+              <p>.</p>
+            </div>
+            <img
+              src="lashlift/picture1-lashlift.jpeg"
+              class="bilder-lashlift"
+            />
+          </div>
+          <div class="image-lashlift">
+            <div class="ansiktsbehandling-text-ansikte">
+              <h3>.</h3>
+              <p>.</p>
+            </div>
+            <img src="lashlift/picture2-lashlift.jpg" class="bilder-lashlift" />
+          </div>
+          <div class="image-lashlift">
+            <div class="ansiktsbehandling-text-ansikte">
+              <h3>.</h3>
+              <p>.</p>
+            </div>
+            <img src="lashlift/picture3-lashlift.jpg" class="bilder-lashlift" />
+          </div>
+          <div class="image-lashlift">
+            <div class="ansiktsbehandling-text-ansikte">
+              <h3>.</h3>
+              <p></p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="container-5huvudsida">
+        <div class="section-4huvudsida">
+          <div class="footermore-info">
+            <footer class="footer-container-huvudsida">
+              <h3 class="footer-text-1-huvudsida">Your Skin Clinic</h3>
+              <p class="footer-address-huvudsida">Hamngatan 37, Gallerian</p>
+              <p class="footer-address-huvudsida">Stockholm, Sergels Torg</p>
+              <p class="footer-address-huvudsida">Zax City</p>
+              <p class="footer-telefon-huvudsida">TEL:073 041 25 89</p>
+              <p class="footer-telefon-huvudsida">MAIL: Info@byisabellak.se</p>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
